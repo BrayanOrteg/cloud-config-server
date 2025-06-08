@@ -1,5 +1,5 @@
 features:
   newSearchAlgorithm:
-    enabled: false 
+    enabled: true 
   anotherFeature:
     enabled: true # Example of another feature
