@@ -8,6 +8,4 @@ eureka:
 
 features:
   newSearchAlgorithm:
-    enabled: true 
-  anotherFeature:
-    enabled: true # Example of another feature
+    enabled: false
