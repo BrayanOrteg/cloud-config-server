@@ -1,6 +1,10 @@
 eureka:
   instance:
-    prefer-ip-address: true
+    prefer-ip-address: false # Changed from true
+  client:
+    # This should already be in your file and is correct
+    serviceUrl:
+      defaultZone: http://service-discovery-container:8761/eureka/
 
 features:
   newSearchAlgorithm:
